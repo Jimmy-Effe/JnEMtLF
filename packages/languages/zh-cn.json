@@ -1,0 +1,7 @@
+{
+	"static-text": "这行文字接入了多语言",
+	"This line of PHP output text is connected to the translation": "这行PHP内容接入了多语言",
+	"try": "尝试点击下面的切换语言按钮实现该功能",
+	"jt-tip": "静态内容",
+	"dt-tip": "动态内容"
+}

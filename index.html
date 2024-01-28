@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Midnight MTLF DEMO</title>
+	</head>
+	<script src="./js/language.js"></script>
+	<style>
+		
+		.app{
+			margin-left: 50px;
+		}
+		.jt-p{
+			font-size:30px;
+		}
+		.but{
+			    text-align: center;
+			    margin-top: 100px;
+		}
+	</style>
+	<body>
+		<div class="app">
+			<div class="jt">
+				<p class="jt-p"data-mess="jt-tip">static content</p>
+				<p class="jt-p2">This line of text has no translation access</p>
+				<p class="jt-p2" data-mess="static-text">This line of text has been translated</p>
+			</div>
+			
+			<div class="dt">
+				<p class="jt-p" data-mess="dt-tip">dynamic content</p>
+				<p class="dt-p2">This line of text has no translation access</p>
+				<p class="dt-p2" data-mess="<?php echo $outputtext; ?>"><?php echo $outputtext; ?></p>
+			</div>
+			
+			<div class="but">
+				<p class="tips" data-mess="try">Try clicking the switch language button below to achieve this function</p>
+				<button id="lang-zh-cn" class="language-chose-button" onclick="changeLanguage('zh-cn')">Chinese</button>
+				<button id="lang-en-en" class="language-chose-button button-right" onclick="changeLanguage('en-en')">English</button>
+			</div>
+		</div>
+	</body>
+</html>
