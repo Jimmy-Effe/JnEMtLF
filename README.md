@@ -1,11 +1,12 @@
-# JnEMtLF
-  Static and dynamic hybrid web project multi-language framework
+#JnEMtLF
+Static and dynamic hybrid web project multi-language framework
  
 # Introduction
 This project is suitable for pure native web projects, and the backend is php.
 
 
 # Instructions
+- **Please make sure you have a PHP environment**
 - Add the data-mess attribute to HTML tags that require multiple languages
 - Name the tag in the data-mess attribute
 - Create the language content corresponding to the tag in the JSON file
